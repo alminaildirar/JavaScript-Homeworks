@@ -38,7 +38,7 @@ hour =     hour < 10 ? "0" + hour : hour;
 minute = minute < 10 ? "0" + minute : minute;
 second = second < 10 ? "0" + second : second;
 
-document.querySelector('#myClock').innerHTML = `${hour}/${minute}/${second}  ${day}` ;
+document.querySelector('#myClock').innerHTML = `${hour}:${minute}:${second}  ${day}` ;
 setTimeout(showTime,1000);
 
 }
